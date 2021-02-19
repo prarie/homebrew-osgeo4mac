@@ -43,7 +43,7 @@ class OsgeoOsgearth < Formula
   depends_on "python" # for sphinx
   depends_on "qt"
   depends_on "sqlite"
-  depends_on :x11
+  depends_on "xquartz"
   depends_on "minizip" => :recommended
   depends_on "rocksdb" => :optional
   depends_on "v8" => :optional
